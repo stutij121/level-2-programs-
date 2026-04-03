@@ -5,7 +5,7 @@ int main ()
     int m,n;
 
     printf("enter the number of rows and columns of the matrix");
-    scanf("%d %d,&m,&n");
+    scanf("%d %d ",&m,&n);
     for(i=0;i<m;i++)
     {
         for(j=0;j<n;j++)
@@ -23,7 +23,7 @@ int main ()
         {
          sum=sum+a[i][j];
         }
-        printf("row %d = %d\n,i+1,sum");
+        printf("sum of rows  = %d\n,sum");
     }
     //column sum//
     printf("\n sum of columns\n");
@@ -34,7 +34,7 @@ int main ()
         {
             sum=sum+a[i][j];
         }
-        printf("column %d = %d\n",i+1,sum);
+        printf(" sum of columns  = %d\n",sum);
 
     }
     return 0;
